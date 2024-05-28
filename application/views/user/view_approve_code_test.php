@@ -598,10 +598,10 @@ $email = $user['email'];
                         // pre( $reportStatus );
                         if( !empty($reportStatus) ){
                               if( $reportStatus['saved_folder'] == 'dev' ){
-                                $url = 'https://users.respicite.com/dev';
+                                $url = 'https://respicite.com/dev';
                               }
                               else{
-                                $url = 'https://users.respicite.com';
+                                $url = 'https://respicite.com';
                               }
                                 // if( !empty($reportControl) ){
                                     if( $reportStatus['status'] == 1 ){

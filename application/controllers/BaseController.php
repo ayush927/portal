@@ -1,9 +1,19 @@
 <?php
+
     require_once APPPATH.'third_party/razorpay-php/Razorpay.php';
+
     use Razorpay\Api\Api;
+
     class BaseController extends CI_Controller
+
     {
+
+        
+
         protected $uce_part_2_time = 0;
+
+        
+
         public function __construct()
 
         {

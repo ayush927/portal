@@ -1,6 +1,6 @@
 <?php 
-    // pre( $_SESSION , 1 );
-    $sp_logo = $this->Sp_model->get_sp_logo($_SESSION['user']['code']);
+
+$sp_logo = $this->Sp_model->get_sp_logo($_SESSION['user']['code']);
     if(!empty($sp_logo)){
       $path_logo = ASSET_URL.$sp_logo['logo'];
       if(!file_exists($path_logo)){
@@ -15,7 +15,7 @@
 
 
 
-$webpage_title = $_SESSION['user']['dashboardTitle'];
+$webpage_title=$_SESSION['user']['dashboardTitle'];
 
 
 
